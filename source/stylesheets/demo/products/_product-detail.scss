@@ -36,16 +36,20 @@
   }
   .meta {
     background-color: $background-primary-color;
-    
+
     h1 {
       margin-top: 0;
     }
   }
 
-  .price, .weight {
+  .price, .weight, .kbju {
     display: inline-block;
     font-weight: bold;
     font-size: 24px;
+  }
+
+  .kbju {
+    margin-left: 30px;
   }
 
   .price {

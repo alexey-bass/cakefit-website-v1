@@ -9,8 +9,11 @@
         span = product.weight.to_s + weight
 
       .price
-        - currency = data.settings.units.currency || '€' 
-        span = currency + product.price.to_s 
+        - currency = data.settings.units.currency || '€'
+        span = currency + product.price.to_s
+
+      .kbju
+        span = 'КБЖУ: ' + product.kbju
 
     .body
       = markdown product.body

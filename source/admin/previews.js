@@ -35,6 +35,9 @@ const ProductPreview = ({ entry, widgetFor }) => {
           <div className="price">
             <span>{`€${data.price}`}</span>
           </div>
+          <div className="kbju">
+              <span>{`${data.kbju}`}</span>
+          </div>
         </div>
         <div className="body">{widgetFor('body')}</div>
       </div>
